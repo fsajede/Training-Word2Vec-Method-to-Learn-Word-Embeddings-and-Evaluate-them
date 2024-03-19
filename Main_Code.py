@@ -4,8 +4,7 @@ nltk.download()
 from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
-""""A1 (1).pptx"brown_path = nltk.data.find('corpora/brown')
-brown_path"""
+""""A1 (1).pptx"brown_path = nltk.data.find('corpora/brown')brown_path"""
 sentences = nltk.corpus.brown.sents()
 len(sentences)
 type(sentences)
